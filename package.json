@@ -1,0 +1,32 @@
+{
+  "name": "dash-webplayer",
+  "version": "1.0.0",
+  "description": "web player using dash-videots library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shengz94/dashWebPlayer.git"
+  },
+  "author": "Sheng Zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shengz94/dashWebPlayer/issues"
+  },
+  "homepage": "https://github.com/Shengz94/dashWebPlayer#readme",
+  "dependencies": {
+    "dashjs": "^3.2.1"
+  },
+  "devDependencies": {
+    "stream": "^0.0.2",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
