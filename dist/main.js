@@ -26144,7 +26144,7 @@ function init() {
     (_a = document.querySelector("video")) === null || _a === void 0 ? void 0 : _a.setAttribute("style", "width: 640px");
 }
 document.addEventListener("DOMContentLoaded", function () {
-    const container = document.getElementById("vid");
+    const container = document.getElementById("buttons");
     let play = document.createElement("button");
     let pause = document.createElement("button");
     let stop = document.createElement("button");

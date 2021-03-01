@@ -22,7 +22,7 @@ function init() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const container = document.getElementById("vid");
+    const container = document.getElementById("buttons");
 
     let play = document.createElement("button");
     let pause = document.createElement("button");
